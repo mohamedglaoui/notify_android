@@ -1,6 +1,6 @@
 #include "notify_android.h"
 
-android_notify::android_notify() {
+android_notify::android_notify(bool notif) {
  
 }
 
