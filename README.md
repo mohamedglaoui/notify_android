@@ -1,9 +1,15 @@
 # notify_android
 
 Requirement:
-Install "Firebase_Arduino_WiFi101" library from "manage libray" in Arduino IDE.
 
-Install the android application from play store "mkr_notify":
+-Install "Firebase_Arduino_WiFi101" library from "manage libray" in Arduino IDE.
+
+-Download notify_android library abd add it to the library folder.
+
+-Install the android application from play store "mkr_notify".
+
+########################################################################################################
+########################################################################################################
 
 1-go to the android application "mkr_notify"
  a)insert your username and password,you should see "success!!!" as a toast.
