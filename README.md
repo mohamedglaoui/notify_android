@@ -11,12 +11,12 @@ Install the android application from play store "mkr_notify":
 1-Open the example in your Arduino IDE.
 
 2-
-#define WIFI_SSID ""  ----your wifi's name
-#define WIFI_PASSWORD ""  ----your wifi's password
-#define username "" -----the username wich was used on the android application
-#define password ""-----the password wich was used on the android application
-#define title""-----the title of the notification in your phone
-#define body "hello android i m arduino"----the body of the notification in your phone
+#define WIFI_SSID ""                         ----your wifi's name
+#define WIFI_PASSWORD ""                     ----your wifi's password
+#define username ""                          -----the username wich was used on the android application
+#define password ""                          -----the password wich was used on the android application
+#define title""                              -----the title of the notification.
+#define body ""                              ----the body of the notification.
 
 3-upload the code into your mkr1000 board
 
