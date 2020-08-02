@@ -12,18 +12,6 @@ void android_notify::begin(int baudRate) {
   
 }
 
-// Pretend this is one or more complex and involved functions you have written
-void android_notify::notify() {
-
-  unsigned long specialNumber = random(5, 1000);
-
-  specialNumber *= getPi();
-
-  specialNumber -= 5;
-
-  return ;
-
-}
 void android_notify::send_notification(String title,String body,String username,String password){
  if (Firebase.setString(firebaseData,"/myDb/notification/"+username+"_"+password+"/value" ,title+"℧"+body))
     {
@@ -35,17 +23,15 @@ void android_notify::send_notification(String title,String body,String username,
      
   Serial.print("notification reseted...");} 
 }
+
  void android_notify::connect_fire(String WIFI_SSID,String WIFI_PASSWORD ){
  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH, WIFI_SSID, WIFI_PASSWORD);
   Firebase.reconnectWiFi(true); 
  }
  
-void android_notify::connect_wifi(String WIFI_SSID,String WIFI_PASSWORD ){
-
-  Serial.begin(9600);
+void android_notify::connect_wifi(String WIFI_SSID,String WIFI_PASSWORD 
   delay(100);
   Serial.println();
-
   Serial.print("Connecting to Wi-Fi");
   int status = WL_IDLE_STATUS;
   while (status != WL_CONNECTED)
