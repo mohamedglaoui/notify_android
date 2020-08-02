@@ -1,8 +1,7 @@
 #include "notify_android.h"
 
-android_notify::android_notify(bool displayMsg) {
-  // Anything you need when instantiating your object goes here
-  _msg = displayMsg;
+android_notify::android_notify() {
+ 
 }
 
 // this is our 'begin' function
