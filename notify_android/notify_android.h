@@ -10,7 +10,7 @@
 class android_notify  {
   public:
     // Constructor 
-     android_notify();
+     android_notify(bool notif);
 
     // Methods
 void begin(int baudRate);
