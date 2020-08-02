@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Bounce2
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+android_notify  	 KEYWORD1
+notify_android 	 KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+connect_wifi	 KEYWORD2
+connect_fire	 KEYWORD2
+send_notification	 KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
