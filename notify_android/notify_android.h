@@ -10,11 +10,10 @@
 class android_notify  {
   public:
     // Constructor 
-     android_notify(bool displayMsg=false);
+     android_notify();
 
     // Methods
-    void begin(int baudRate=9600);
-    void notify();
+void begin(int baudRate);
 void connect_wifi(String WIFI_SSID,String WIFI_PASSWORD );
 void connect_fire(String WIFI_SSID,String WIFI_PASSWORD );
 void send_notification(String title,String body,String username,String password);
