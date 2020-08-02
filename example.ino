@@ -1,10 +1,10 @@
 #include <notify_android.h>
-#define WIFI_SSID "ALSamer_2G"
-#define WIFI_PASSWORD "01020304"
-#define username "moh1"
-#define password "moh"
-#define title "android_notify"
-#define body "hello android i m arduino"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define username ""
+#define password ""
+#define title ""
+#define body ""
 android_notify notifyme(true);
 
 void setup() {
